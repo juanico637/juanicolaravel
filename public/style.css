@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200&family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@300&family=Satisfy&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    /* background-color: #1e2429; */
+    background-image:  linear-gradient(rgba(34, 34, 39, 0.7),rgba(4,9,30,0.7)) ,url(/img/bp6.jpg);
+    background-size: 100%;
+    max-width: 100%;
+    margin-top: 5rem;
+}
+.jennie{
+    max-width: 16%;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    transition: transform .2s; 
+    border-radius: 10px;
+}
+.jennie:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+    transition-duration: 800ms; 
+}
+.lisa{
+    background-image: url(/img/j.png);
+    max-width: 16%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    transition: transform .2s;
+    border-radius: 10px;
+}
+.lisa:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+    transition-duration: 500ms; 
+}
+.jisoo{
+    background-image: url(/img/j.png);
+    max-width: 16%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+.jisoo:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+    transition-duration: 500ms; 
+}
+.rosie{
+    background-image: url(/img/j.png);
+    max-width: 16%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+.rosie:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+    transition-duration: 500ms; 
+}
+.nav{
+    background-color: transparent;
+    list-style-type: none;
+    color: black;
+    text-align: center;
+    margin: 0;
+    height: 3.4rem;
+    padding: 0;
+    margin-top: -5rem;
+    text-align: right;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+                
+}
+.nav a{
+    color: white;
+    font-size: 15px;
+    font-family: 'Arial';
+    text-decoration:none;
+    letter-spacing: 1px;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    margin-right: 2rem;
+}
+.nav a:hover{
+    color: pink;
+    transform: translate(10%);
+    transition-duration: 300ms;
+}
+.logo{
+    color: pink;
+    font-family: 'Lobster';
+    margin-top: -27.6rem;
+    margin-left: 3rem;
+}
+p.jn{
+    margin-top: 26.6rem;
+    margin-left: 20rem;
+    font-size: 2rem;
+    font-family: 'Lobster';
+    color: pink;
+}
+p.ls{
+    margin-top: -2.6rem;
+    margin-left: 38rem;
+    font-size: 2rem;
+    font-family: 'Lobster';
+    color: pink;
+}
+p.jso{
+    margin-top: -2.6rem;
+    margin-left: 54rem;
+    font-size: 2rem;
+    font-family: 'Lobster';
+    color: pink;
+}
+p.rs{
+    margin-top: -2.6rem;
+    margin-left: 71rem;
+    font-size: 2rem;
+    font-family: 'Lobster';
+    color: pink;
+}
+
+
+/*--------------------- second section ---------------------*/
+
+.second{
+    background-color: white;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    padding-top: 100px;
+    margin-top: 15rem;
+}
+.j1{
+    max-width: 24%;
+    margin-left: 7rem;
+    margin-top: 4rem;
+    border-style: groove;
+    padding: 2rem;
+}
+.j_intro{
+    color: #2c2d2e;
+    font-family: 'Poppins';
+    margin-top: -37rem;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 40rem;
+}
+.j_bio{
+    font-family: Arial;
+    font-size: 16px;
+    display: block;
+    margin-left: 45rem;
+    width: 35%;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+}
+
+
+/*--------------------- third section ---------------------*/
+.third{
+    background-color:black;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    padding-top: 100px;
+}
+.l1{
+    max-width: 24%;
+    margin-left: 53rem;
+    margin-top: 3rem;
+    border-style: groove;
+    border-color: white;
+    padding: 2rem;
+}
+.l_intro{
+    color: #ffffff;
+    font-family: 'Poppins';
+    margin-top: -36rem;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 8rem;
+}
+.l_bio{
+    font-family: Arial;
+    font-size: 16px;
+    display: block;
+    margin-left: 10rem;
+    width: 35%;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 100;
+}
+
+
+/*--------------------- fourth section ---------------------*/
+.fourth{
+    background-color: white;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    padding-top: 100px;
+
+}
+.jsi1{
+    max-width: 22%;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    border-style: groove;
+    padding: 2rem;
+}
+.jsi_intro{
+    color: #2c2d2e;
+    font-family: 'Poppins';
+    margin-top: -35rem;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 40rem;
+}
+.js_bio{
+    font-family: Arial;
+    font-size: 16px;
+    display: block;
+    margin-left: 45rem;
+    width: 35%;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+}
+
+/*--------------------- fifth section ---------------------*/
+.fifth{
+    background-color:black;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    padding-top: 100px;
+}
+.r1{
+    max-width: 24%;
+    margin-left: 53rem;
+    margin-top: 5rem;
+    border-style: groove;
+    border-color: white;
+    padding: 2rem;
+}
+.rs_intro{
+    color: #ffffff;
+    font-family: 'Poppins';
+    margin-top: -38rem;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 6rem;
+}
+.rs_bio{
+    font-family: Arial;
+    font-size: 14px;
+    display: block;
+    margin-left: 10rem;
+    width: 35%;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 100;
+}
+
+
+/*--------------------- sixth section ---------------------*/
+
+.sixth{
+    background-color:pink;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 10rem;
+}
+
+/*--------------------- seventh section ---------------------*/
+
+.seventh{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    max-width: fit-content;
+    padding: 10rem;
+}
+.socmeds{
+    max-width: 3.4%;
+    background-position: center;
+    margin-left: 12.5rem;
+    margin-top: -4rem;
+}
+.yt{
+    max-width: 4%;
+    background-position: center;
+    margin-left: 12.5rem;
+    margin-top: -4rem;
+}
+.fb{
+    max-width: 4%;
+    background-position: center;
+    margin-left: 12.5rem;
+    margin-top: -4rem;
+}
+p.isocmed{
+    color: white;
+    font-family: 'poppins';
+    display: inline;
+    margin-left: 10rem;
+}
+p.fsocmed{
+    color: white;
+    display: inline;
+    font-family: 'poppins';
+    margin-left: 6.6rem;
+}
+p.ysocmed{
+    color: white;
+    font-family: 'poppins';
+    display: inline;
+    margin-left: 8.8rem;
+}
+p.tsocmed{
+    color: white;
+    display: inline;
+    font-family: 'poppins';
+    margin-left: 10rem;
+}
